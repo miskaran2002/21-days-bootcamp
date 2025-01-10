@@ -1,0 +1,63 @@
+ .footer-container{
+    height: 100vh;
+    margin-top: 90px;
+    background-image: linear-gradient(top bottom right,#5e4af1,#ba0bf9);
+ }
+
+ .footer-container{
+    display: flex;
+    padding: 30px;
+
+ }
+
+ .left-footer-form{
+    width: 50%;
+    height: 100vh;
+    background-color: antiquewhite;
+ }
+
+ .right-footer-contact{
+    width: 50%;
+    height: 100vh;
+ }
+
+ #form-title{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bolder;
+ }
+
+.input{
+    width: 70%;
+    padding: 10px;
+    background-color: transparent;
+}
+
+ .contact-title{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bolder;
+ }
+
+ .contact-description{
+    margin-top: 50px;
+
+ }
+
+.email-info{
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+#number-info{
+    text-transform: uppercase;
+    font-size: 20x;
+    margin-top: 20px;
+}
+
+.social-icon{
+    margin-top:40 px ;
+    display: flex;
+    gap: 5px;
+}

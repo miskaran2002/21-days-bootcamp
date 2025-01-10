@@ -1,0 +1,134 @@
+
+.heada-container{
+height: 100vh; 
+background-image: url(image/banner/Rectangle\ 5.png);
+background-repeat:no-repeat;
+background-position:center,top ;
+  
+    
+}  
+.nav{
+    padding-top:20px ;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color:var(--font-primary-color);  
+    font-size: 36px;
+}
+#right-menue-icon-id{
+width: 175px; 
+text-align: center;
+}
+
+.banner-title h1{
+
+    font-weight: bolder;
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 40px ,20px;
+   
+}
+.banner-description{
+    font-size: 25px;
+    margin: 60px ,2dvh;
+    padding: 10px;
+    text-transform: uppercase;
+    
+}
+
+.banner-profile-container{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--font-primary-color);
+    border-bottom: 1px solid var(--font-primary-color);
+    
+
+}
+.banner-profile-description{
+
+display: flex;
+flex-direction: column;
+justify-content: end;
+font-size: 40px;
+
+}
+.work-icon-container{
+
+    display: flex;
+    gap: 10px;
+    padding: 30px 0px;
+    
+    
+}
+.check-icon{
+    width: 60px;
+    height: 60px
+    
+}
+
+.banner-image-container{
+
+    background-color: var(--font-primary-color);
+    width: fit-content;
+    /* background-position: centre,top; */
+}
+
+.complete-project-card h1{
+
+    font-size: 152px;
+    text-transform: uppercase;
+
+}
+
+.complete-project-card p{
+
+    font-size: 40px;
+    text-transform: uppercase;
+    display: flex;
+}
+.last-project-container{
+    display: flex;
+    justify-content:space-between ;
+    
+
+}
+/* this is media query */
+@media only screen and (min-width:200px) and (max-width:577px) { 
+
+.container{
+    padding: 0px,5px;
+}
+.nav{
+        font-size: 16px;
+    }
+.last-project-container{
+
+    flex-direction: column;
+    display: flex;
+}
+.banner-profile-container{
+    display: flex;
+   flex-direction:column ;
+
+}.banner-image-container{
+
+    
+    width: 100%;
+    background-position: center,top;
+}
+.banner-image{
+
+    width: 100%;
+}
+
+.banner-title h1{
+
+    
+    font-size: 25px;
+    
+}
+}
+
+
+
